@@ -10,4 +10,5 @@ var lastName ="Volkov";
 
 //assignment
 firstName = "Vasya";
+firstName = "Petya";
 console.log(firstName);
