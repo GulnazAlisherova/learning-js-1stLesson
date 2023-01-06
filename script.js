@@ -3,8 +3,10 @@
 
 //declaration
 var firstName;
-
 var age;
 
 //initialize
 var lastName ="Volkov";
+
+//assignment
+firstName = "Vasya";
