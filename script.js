@@ -10,3 +10,4 @@ var lastName ="Volkov";
 
 //assignment
 firstName = "Vasya";
+console.log(firstName);
