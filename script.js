@@ -17,3 +17,6 @@ console.log(firstName);
 var cats = 3, rats = 5;
 var animals = cats + rats;
 console.log(animals);
+
+var names = firstName + lastName;
+console.log(names);
