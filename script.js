@@ -12,3 +12,8 @@ var lastName ="Volkov";
 firstName = "Vasya";
 firstName = "Petya";
 console.log(firstName);
+
+//math-1
+var cats = 3, rats = 5;
+var animals = cats + rats;
+console.log(animals);
