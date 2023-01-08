@@ -55,9 +55,19 @@ var example4 = 10 >= 10; //more than or equals
 var example5 = 10 <= 10; //less than or equals
 var example6 = 11 !== 10; //not equals
 
+//numbers
+var number1 = 2; //number
+var number = 2.3; //number too
+
+//string, text
+var string1 = "Hello world";// текст
+var string2 ="A"; //тоже является  текстом
+var string3 = ""; //является пустой строкой
+var string4 = "5" // строка которая является пяти
+
 
 var a = 4
-var b = 6
+var b = 6 
 var example7 = a < b; //true
 
 var c = 10;
@@ -71,23 +81,33 @@ var e = 3.14;
 if (e !== 3.14) { //false
   alert("Why you don't know number PI?");
 }
-else{
+else {
   alert("Good job!"); //true
 }
 
 
 var age = 10;
-if (age < 18){
+if (age < 18) {
   alert("You can't vote yet"); //false
 }
-else{
+else {
   alert("You can vote"); //true
 }
 //example2
 var age = 10;
-if (age >= 18){
+if (age >= 18) {
   alert("You can vote"); //true
 }
-else{
+else {
   alert("You can't  vote yet, you're too young"); //false
+}
+
+//example3
+
+var lightSwitch = 1;
+if ( lightSwitch ===1) {
+  alert("Light is on 💡💡💡"); //true
+}
+else{
+  alert("Light is off");
 }
