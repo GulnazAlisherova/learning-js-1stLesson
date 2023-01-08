@@ -6,7 +6,7 @@ var firstName;
 var age;
 
 //initialize
-var lastName ="Volkov";
+var lastName = "Volkov";
 
 //assignment
 firstName = "Vasya";
@@ -41,3 +41,16 @@ var PI = 3.141592;
 var r = 5;
 var circleArea = r * r * PI;
 console.log(circleArea);
+
+
+
+
+
+//js LOGIC
+
+var example1 = 10 === 10; //equals
+var example2 = 11 > 10; //more than
+var example3 = 10 < 11; //less than
+var example4 = 10 >= 10; //more than or equals
+var example5 = 10 <= 10; //less than or equals
+var example6 = 11 !== 10; //not equals
