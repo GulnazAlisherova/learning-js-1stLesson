@@ -27,3 +27,9 @@ console.log(names);
 //math-3
 var result = (2 + 1) / 3 - 6 * 2;
 console.log(result);
+
+var a = 5;
+var b = 6;
+var squareArea = a * b;
+alert(squareArea)
+//console.log(squareArea)
