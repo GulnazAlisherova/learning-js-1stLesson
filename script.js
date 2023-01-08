@@ -66,3 +66,8 @@ if (c < d) { //true
   alert("C is less than D");
   console.log("Hello world")
 }
+
+var e = 3.13;
+if (e !== 3.14) {
+  alert("Why you don't know number PI?");
+}
