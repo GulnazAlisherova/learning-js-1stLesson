@@ -67,7 +67,27 @@ if (c < d) { //true
   console.log("Hello world")
 }
 
-var e = 3.13;
-if (e !== 3.14) {
+var e = 3.14;
+if (e !== 3.14) { //false
   alert("Why you don't know number PI?");
+}
+else{
+  alert("Good job!"); //true
+}
+
+
+var age = 10;
+if (age < 18){
+  alert("You can't vote yet"); //false
+}
+else{
+  alert("You can vote"); //true
+}
+//example2
+var age = 10;
+if (age >= 18){
+  alert("You can vote"); //true
+}
+else{
+  alert("You can't  vote yet, you're too young"); //false
 }
