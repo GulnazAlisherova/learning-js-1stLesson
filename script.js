@@ -34,6 +34,7 @@ var squareArea = a * b;
 // alert(squareArea)
 console.log(squareArea)
 
+//example 3
 var PI = 3.141592;
 var r = 5;
 var circleArea = r * r * PI;
