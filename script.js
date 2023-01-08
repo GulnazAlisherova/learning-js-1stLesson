@@ -54,3 +54,15 @@ var example3 = 10 < 11; //less than
 var example4 = 10 >= 10; //more than or equals
 var example5 = 10 <= 10; //less than or equals
 var example6 = 11 !== 10; //not equals
+
+
+var a = 4
+var b = 6
+var example7 = a < b; //true
+
+var c = 10;
+var d = 11;
+if (c < d) { //true 
+  alert("C is less than D");
+  console.log("Hello world")
+}
