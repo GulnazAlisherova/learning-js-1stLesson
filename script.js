@@ -31,5 +31,10 @@ console.log(result);
 var a = 5;
 var b = 6;
 var squareArea = a * b;
-alert(squareArea)
-//console.log(squareArea)
+// alert(squareArea)
+console.log(squareArea)
+
+var PI = 3.141592;
+var r = 5;
+var circleArea = r * r * PI;
+console.log(circleArea);
