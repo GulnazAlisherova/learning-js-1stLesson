@@ -65,6 +65,9 @@ var string2 ="A"; //тоже является  текстом
 var string3 = ""; //является пустой строкой
 var string4 = "5" // строка которая является пяти
 
+//boolean
+var boolean1 = true; //1
+var boolean2 = false; //0
 
 var a = 4
 var b = 6 
