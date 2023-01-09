@@ -158,3 +158,11 @@ else{
 
 var username = prompt("What's your name?");  //if не пишется
 alert("Welcome " + username);
+
+
+
+var username = prompt("What's your name?"); 
+if (username === "") {
+  username = "stranger";
+}
+alert("Welcome " + username);
