@@ -172,3 +172,14 @@ var username = prompt("What's your name?", "stranger");
 //   username = "stranger";    shorter way
 // }
 alert("Welcome " + username);
+
+var a = prompt("Width of rectangle");
+var b = prompt("Height of rectangle");
+alert (a + b);
+
+
+var message = prompt("What's your message?");
+if (message === "") {
+  message = "No message";
+}
+alert(message);
