@@ -139,30 +139,36 @@
 //   alert("Welcome fellow pedestrian!");
 // }
 
-if(confirm("Do you have a car?")) {
-  if(confirm("Is it red?")){
-    alert("You have a red car.");
-  }
-  else{
-    alert("You have a car that isn't red.");
-  }
-}
-else{
-  if(confirm("Are you planning to have a car?")){
-    alert("You are planning to have a car.");
-  }
-  else{
-    alert("You don't like cars.");
-  }
-}
+// if(confirm("Do you have a car?")) {
+//   if(confirm("Is it red?")){
+//     alert("You have a red car.");
+//   }
+//   else{
+//     alert("You have a car that isn't red.");
+//   }
+// }
+// else{
+//   if(confirm("Are you planning to have a car?")){
+//     alert("You are planning to have a car.");
+//   }
+//   else{
+//     alert("You don't like cars.");
+//   }
+// }
 
-var username = prompt("What's your name?");  //if не пишется
-alert("Welcome " + username);
+// var username = prompt("What's your name?");  //if не пишется
+// alert("Welcome " + username);
 
 
 
-var username = prompt("What's your name?"); 
-if (username === "") {
-  username = "stranger";
-}
+// var username = prompt("What's your name?"); 
+// if (username === "") {
+//   username = "stranger";
+// }
+// alert("Welcome " + username);
+
+var username = prompt("What's your name?", "stranger"); 
+// if (username === "") {
+//   username = "stranger";    shorter way
+// }
 alert("Welcome " + username);
