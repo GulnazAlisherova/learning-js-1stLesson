@@ -179,7 +179,13 @@ alert (a + b);
 
 
 var message = prompt("What's your message?");
-if (message === "") {
+if (message === "") { // если ввёл сообщение то этот кусок кода не выполняется
   message = "No message";
 }
+alert(message);
+
+var message = prompt("What's your message?", "no message");
+// if (message === "") { // если ввёл сообщение то этот кусок кода не выполняется
+//   message = "No message";
+// }
 alert(message);
