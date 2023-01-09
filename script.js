@@ -132,9 +132,29 @@
 //   alert("You can't vote!!!!!!!1");
 // }
 
+// if(confirm("Do you have a car?")) {
+//   alert("This website isn't for you");
+// }
+// else{
+//   alert("Welcome fellow pedestrian!");
+// }
+
 if(confirm("Do you have a car?")) {
-  alert("This website isn't for you");
+  if(confirm("Is it red?")){
+    alert("You have a red car.");
+  }
+  else{
+    alert("You have a car that isn't red.");
+  }
 }
 else{
-  alert("Welcome fellow pedestrian!");
+  if(confirm("Are you planning to have a car?")){
+    alert("You are planning to have a car.");
+  }
+  else{
+    alert("You don't like cars.");
+  }
 }
+
+var username = prompt("What's your name?");  //if не пишется
+alert("Welcome " + username);
