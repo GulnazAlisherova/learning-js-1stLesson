@@ -10,6 +10,14 @@
 // var example3 = "10" + "10";
 // console.log(example3);
 
-var age = prompt("How old are you?");
-var year = 2023 - age;
-console.log(year);
+// var age = prompt("How old are you?");
+// var year = 2023 - age;
+// console.log(year);
+
+var year = prompt("What year Kyrgyzstan gained independence?");
+if (year === "1991") {
+  alert("Correct");
+}
+else {
+  alert("Incorrect");
+}
