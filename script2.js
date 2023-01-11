@@ -51,10 +51,10 @@
 //   console.log(i);
 // }
 
-var currentNumber = 10;
+var currentNumber = 20;
 var stopNumber = 0;
 
-while(currentNumber > stopNumber) {
+while (currentNumber > stopNumber) {
   currentNumber = currentNumber - 1;
   console.log(currentNumber);
 }
