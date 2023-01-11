@@ -58,3 +58,28 @@ while (currentNumber > stopNumber) {
   currentNumber = currentNumber - 1;
   console.log(currentNumber);
 }
+
+
+//example about city->capital
+
+var country = prompt("What is the country you wanna know capital of?")
+
+if (country === "USA") {
+  alert("Washington");
+}
+else if (country === "Kazakhstan") {
+  alert("Nur-Sultan");
+}
+
+else if (country === "London") {
+  alert("Paris");
+}
+else if (country === "China") {
+  alert("Pekin");
+}
+ else if (country === "Kyrgyzstan") {
+  alert("Bishkek");
+}
+else{
+  alert("We don't know that country");
+}
