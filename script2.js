@@ -14,10 +14,24 @@
 // var year = 2023 - age;
 // console.log(year);
 
-var year = prompt("What year Kyrgyzstan gained independence?");
-if (year === "1991") {
-  alert("Correct");
+// var year = prompt("What year Kyrgyzstan gained independence?");
+// if (year > 1991) {
+//   alert("This year is after independence year.");
+// }
+// else if (year === "1991"){
+//   alert("Good job!");
+// }
+// else {
+//   alert("This year is before independence year.");
+// }
+
+var year2 = prompt("What year Italy gained independence?");
+if (year2 > 1861){
+  alert("This year is after indpendence year.");
+}
+else if( year2 === "1861"){
+  alert("You got it!");
 }
 else {
-  alert("Incorrect");
+  alert("This year is before independence year.");
 }
