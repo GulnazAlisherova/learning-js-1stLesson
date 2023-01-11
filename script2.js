@@ -25,20 +25,36 @@
 //   alert("This year is before independence year.");
 // }
 
-var year2 = prompt("What year Italy gained independence?");
-if (year2 > 1861){
-  alert("This year is after indpendence year.");
-}
-else if( year2 === "1861"){
-  alert("You got it!");
-}
-else {
-  alert("This year is before independence year.");
-}
+// var year2 = prompt("What year Italy gained independence?");
+// if (year2 > 1861){
+//   alert("This year is after indpendence year.");
+// }
+// else if( year2 === "1861"){
+//   alert("You got it!");
+// }
+// else {
+//   alert("This year is before independence year.");
+// }
+
+
 //next example
-var currentNumber = 0;
-var stopNumber = 10;
-while(currentNumber < stopNumber) {
-  currentNumber = currentNumber + 1;
+// var currentNumber = 0;
+// var stopNumber = 100;
+// while(currentNumber < stopNumber) {
+//   currentNumber = currentNumber + 1;
+//   console.log(currentNumber);
+// }
+
+//another example
+
+// for (var i=1; i<=10; i++){
+//   console.log(i);
+// }
+
+var currentNumber = 10;
+var stopNumber = 0;
+
+while(currentNumber > stopNumber) {
+  currentNumber = currentNumber - 1;
   console.log(currentNumber);
 }
