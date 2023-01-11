@@ -35,3 +35,10 @@ else if( year2 === "1861"){
 else {
   alert("This year is before independence year.");
 }
+//next example
+var currentNumber = 0;
+var stopNumber = 10;
+while(currentNumber < stopNumber) {
+  currentNumber = currentNumber + 1;
+  console.log(currentNumber);
+}
