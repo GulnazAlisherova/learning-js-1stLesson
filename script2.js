@@ -92,3 +92,4 @@ function callFriend (){
   console.log("Press call");
   console.log("Wait for the answer");
 }
+callFriend();
