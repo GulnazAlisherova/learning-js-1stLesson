@@ -93,3 +93,5 @@ function callFriend (){
   console.log("Wait for the answer");
 }
 callFriend();
+callFriend();
+callFriend();
