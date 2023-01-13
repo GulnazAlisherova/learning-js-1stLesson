@@ -86,12 +86,14 @@
 
 // названия функций не должны иметь: пробелы и должны писать вместе и все другие слова кроме первого должны быть написаны с большой буквы НАПРИМЕР -> finishMath, cookDinner
 
-function callFriend (friendsName){ 
+function callFriend(friendsName = "Tom") { // если будет пустым т.е undefined  добавить Тома
   console.log("Pick up the phone");
-  console.log("Type in the number" + friendsName);
+  console.log("Type in the number " + friendsName);
   console.log("Press call");
   console.log("Wait for the answer");
 }
 callFriend("Bakyt");
 callFriend("Akjol");
 callFriend("Tima");
+callFriend();
+callFriend(); 
