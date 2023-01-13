@@ -137,9 +137,9 @@ function countDown(number) {
 // document.write(number *100);
 
 function colorfulText() {
-  var red = 100;
-  var blue = 0;
-  var green = 0;
-  document.write(`<h1 style = "color: rgb( ` + red + `, ` + blue + `, ` + green + `);">Hello world</h1> `);
+  var red = Math.random() * 255; // по умолчанию возвращает число 0 и 1
+  var blue = Math.random() * 255;
+  var green = Math.random() * 255;
+  document.write(`<h1 style = "color: rgb( ` + red + `, ` + green + `,  ` + blue + `);">Hello world</h1> `);
 }
 colorfulText();
