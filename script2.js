@@ -86,10 +86,9 @@
 
 // названия функций не должны иметь: пробелы и должны писать вместе и все другие слова кроме первого должны быть написаны с большой буквы НАПРИМЕР -> finishMath, cookDinner
 
-function callFriend (friendsName){
-  console.log(friendsName);
+function callFriend (friendsName){ 
   console.log("Pick up the phone");
-  console.log("Type in the number");
+  console.log("Type in the number" + friendsName);
   console.log("Press call");
   console.log("Wait for the answer");
 }
