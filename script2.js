@@ -98,9 +98,9 @@ function callFriend(friendsName = "Tom") { // если будет пустым �
 // callFriend();
 // callFriend(); 
 
-function calculateSquareArea(a, b) {
+function calculateRectArea(a, b) {
   console.log(a * b);
 }
-calculateSquareArea(5, 10);
-calculateSquareArea(10, 11);
-calculateSquareArea(1, 0);
+calculateRectArea(5, 10);
+calculateRectArea(10, 11);
+calculateRectArea(1, 0);
