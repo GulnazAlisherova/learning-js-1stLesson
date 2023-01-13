@@ -110,8 +110,13 @@ function calculateRectArea(a, b) {
 function calculateCylinderVolume(r, h) { // ёмкость цилиндра
   return 3.14 * r * r * h;
 }
-var smallGlassVol = calculateCylinderVolume(3, 4);
-var bottle = calculateCylinderVolume(4,10);
+// var smallGlassVol = calculateCylinderVolume(3, 4);
+// var bottle = calculateCylinderVolume(4,10);
 
-console.log(smallGlassVol);
-console.log(bottle);
+// console.log(smallGlassVol);
+// console.log(bottle);
+
+document.write("Hello ");
+document.write("world ");
+
+
