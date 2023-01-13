@@ -123,11 +123,11 @@ function calculateCylinderVolume(r, h) { // ёмкость цилиндра
 // document.writeln("<h3> goodbye world </h3><br> <hr>");
 
 
-function countDown( number ) {
+function countDown(number) {
   for (let i = number; i > 0; i = i - 1) { //i--
     document.write(i + " ");
   }
-  document.write(  "<br>");
+  document.write("<br>");
 }
 // countDown(5); 
 // countDown(18); 
@@ -135,3 +135,11 @@ function countDown( number ) {
 
 // var number = Math.random();
 // document.write(number *100);
+
+function colorfulText() {
+  var red = 100;
+  var blue = 0;
+  var green = 0;
+  document.write(`<h1 style = "color: rgb( ` + red + `, ` + blue + `, ` + green + `);">Hello world</h1> `);
+}
+colorfulText();
