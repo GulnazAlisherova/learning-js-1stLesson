@@ -101,6 +101,17 @@ function callFriend(friendsName = "Tom") { // если будет пустым �
 function calculateRectArea(a, b) {
   console.log(a * b);
 }
-calculateRectArea(5, 10);
-calculateRectArea(10, 11);
-calculateRectArea(1, 0);
+// calculateRectArea(5, 10);
+// calculateRectArea(10, 11);
+// calculateRectArea(1, 0);
+
+
+//pr2h
+function calculateCylinderVolume(r, h) { // ёмкость цилиндра
+  return 3.14 * r * r * h;
+}
+var smallGlassVol = calculateCylinderVolume(3, 4);
+var bottle = calculateCylinderVolume(4,10);
+
+console.log(smallGlassVol);
+console.log(bottle);
