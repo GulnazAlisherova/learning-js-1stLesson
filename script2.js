@@ -136,11 +136,19 @@ function countDown(number) {
 // var number = Math.random();
 // document.write(number *100);
 
-function colorfulText(text) {
+function randomColor() {
   var red = Math.random() * 255; // по умолчанию возвращает число 0 и 1
   var blue = Math.random() * 255; // 0.2 * 255
   var green = Math.random() * 255;
-  document.write(`<h1 style = "color: rgb( ` + red + `, ` + green + `,  ` + blue + `);">`+  text + `</h1> `);
+
+  return `rgb(` + red + `, ` + green + `, ` + blue + `)`;
+
 }
-colorfulText("Hello world!");
-colorfulText("Bye world!")
+
+function colorfulText(text, color) { 
+  document.write(`<h1 style = "color: ` + color + `;">` + text + `</h1> `);
+}
+
+var color = randomColor();
+colorfulText("Hello world!", color);
+colorfulText("Bye world!", color)
