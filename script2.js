@@ -123,3 +123,6 @@ function calculateCylinderVolume(r, h) { // ёмкость цилиндра
 // document.writeln("<h3> goodbye world </h3><br> <hr>");
 
 
+function countDown() {
+  
+}
