@@ -131,5 +131,7 @@ function countDown( number ) {
 }
 // countDown(5); 
 // countDown(18); 
+// countDown(prompt("Enter the number!", 100));
 
-countDown(prompt("Enter the number!", 100));
+// var number = Math.random();
+// document.write(number *100);
