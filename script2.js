@@ -124,8 +124,8 @@ function calculateCylinderVolume(r, h) { // ёмкость цилиндра
 
 
 function countDown() {
-  for (let i = 0; i < 10; i++) {
+  for (let i = 10; i > 0; i = i - 1) { //i--
     document.write(i + "<br>");
   }
 }
-countDown();
+countDown(); 
