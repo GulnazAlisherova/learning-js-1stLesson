@@ -136,6 +136,7 @@ function countDown(number) {
 // var number = Math.random();
 // document.write(number *100);
 
+//генерирует случайный цвет
 function randomColor() {
   var red = Math.random() * 255; // по умолчанию возвращает число 0 и 1
   var blue = Math.random() * 255; // 0.2 * 255
@@ -144,11 +145,11 @@ function randomColor() {
   return `rgb(` + red + `, ` + green + `, ` + blue + `)`;
 
 }
-
+//здесь она красит текст в какойто цвет
 function colorfulText(text, color) { 
   document.write(`<h1 style = "color: ` + color + `;">` + text + `</h1> `);
 }
-
+// создать переменную колор и получить рандом цвет и этот случайный цвет хранится в колор например красный оно передается в функцию ColorfulText как второй параметр
 var color = randomColor();
 colorfulText("Hello world!", color);
 colorfulText("Bye world!", color)
