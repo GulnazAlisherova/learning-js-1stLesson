@@ -116,8 +116,10 @@ function calculateCylinderVolume(r, h) { // ёмкость цилиндра
 // console.log(smallGlassVol);
 // console.log(bottle);
 
-document.write("Hello ");
-document.write("world <br> ");
+// document.write("Hello ");
+// document.write("world <br> ");
 
-document.writeln("<h1> bye world! </h1> <br>");
-document.writeln("<h3> goodbye world </h3><br> <hr>");
+// document.writeln("<h1> bye world! </h1> <br>");
+// document.writeln("<h3> goodbye world </h3><br> <hr>");
+
+
