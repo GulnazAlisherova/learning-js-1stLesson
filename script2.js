@@ -92,8 +92,15 @@ function callFriend(friendsName = "Tom") { // если будет пустым �
   console.log("Press call");
   console.log("Wait for the answer");
 }
-callFriend("Bakyt");
-callFriend("Akjol");
-callFriend("Tima");
-callFriend();
-callFriend(); 
+// callFriend("Bakyt");
+// callFriend("Akjol");
+// callFriend("Tima");
+// callFriend();
+// callFriend(); 
+
+function calculateSquareArea(a, b) {
+  console.log(a * b);
+}
+calculateSquareArea(5, 10);
+calculateSquareArea(10, 11);
+calculateSquareArea(1, 0);
