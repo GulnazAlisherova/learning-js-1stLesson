@@ -270,3 +270,7 @@ console.log(shoppingList);
 //remove from the begining
 shoppingList.shift();
 console.log(shoppingList);
+
+//show the list length
+
+console.log(shoppingList.length);
