@@ -98,5 +98,13 @@ y = +y;
 
 
 //Binary operator
-var x  = 1, y = 3;
+var x = 1, y = 3;
 y = x + y;
+
+
+var exampleMath1 = 5 + 6;
+var exampleMath2 = 5 - 6;
+var exampleMath3 = 5 / 6;
+var exampleMath4 = 5 * 6;
+
+var exampleMath5 = 5 % 2; //1
