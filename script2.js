@@ -291,3 +291,8 @@ console.log(numberExample1.toFixed(4));
 
 var numberExample2 = 3.14159265;
 console.log(numberExample2.toFixed(2));
+
+//for string
+
+var stringExample1 = "Hello world. ";
+console.log(stringExample1.length);
