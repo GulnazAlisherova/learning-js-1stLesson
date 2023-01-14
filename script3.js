@@ -185,7 +185,12 @@ var exampleComparison9 = "5" != 5; //true
 //   document.write(index + " ");
 // }
 
-var exampleFor = "Hello";
-for (var i=0; i<exampleFor.length; i++){
-  document.write(exampleFor[i] + "💡")
+// var exampleFor = "Hello";
+// for (var i=0; i<exampleFor.length; i++){
+//   document.write(exampleFor[i] + "💡")
+// }
+
+//Functions
+function sayHello(name, timeofDay) {
+  document.write(`Hello ${name}, have a great ${timeofDay}`); 
 }
