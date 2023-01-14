@@ -161,5 +161,17 @@ var exampleComparison9 = "5" != 5; //true
  */
 
 
-var age  = prompt("How old are you?"); 
-alert("You are "+ age + " years old"); 
+// var age = prompt("How old are you?");
+// var votingYears = age - 18;
+// if (votingYears === NaN){
+//   alert("Wrong input. Numbers only")
+// }
+// else{
+//   alert("You could've  vote for " + votingYears + " years"); 
+// }
+
+
+var userNumber;
+while ( userNumber != 13) {
+  userNumber = prompt("Write a thirteen as a number");
+}
