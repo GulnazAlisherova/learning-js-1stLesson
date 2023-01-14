@@ -176,3 +176,5 @@ var student = {
 
 // document.write(studentFirstName);  -> переменные
 document.write(student.age); // -> object т.е через точку 
+document.write(student.firstName);
+console.log(student.firstName+ " " + student.lastName); 
