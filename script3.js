@@ -23,6 +23,8 @@ var exampleNumber2 = 123.45;
 
 //string
 
-var exampleString1 = 'hello world!'; //-> string too no matter
+var exampleString = 'hello world!'; //-> string too no matter
 var exampleString1 = "hello world!"; //-> string
 var exampleString2 = helloWorld; // переменная
+var exampleString3 =`hello world!`; //-> string too
+var exampleString4 = "4"; // -> string
