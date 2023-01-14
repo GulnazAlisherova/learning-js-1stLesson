@@ -194,3 +194,5 @@ var exampleComparison9 = "5" != 5; //true
 function sayHello(name, timeofDay) {
   document.write(`Hello ${name}, have a great ${timeofDay}`); 
 }
+
+sayHello("Bakyt" , "evening");
