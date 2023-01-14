@@ -205,4 +205,20 @@ console.log(dog.color);
 //delete
 delete dog.color; 
 
-//
+//Methods
+// alert("hello");//function
+// confirm(); //function
+// console.log("hello"); //method
+// document.write();
+
+
+
+// function exampleFunction (){
+//  это то как создаем функцию
+// }
+
+// how to made a method
+ dog.bark = function() {
+  console.log("Woof, woof, woof!");
+ }
+ dog.bark();
