@@ -64,21 +64,28 @@ var exampleObject1 = {};
 // document.write("Hello world"); // вывод чего то в HTML
 
 //конвертация типов данных
-var exampleTypeConversion1 = 5 + 5 + "5"; //105
+// var exampleTypeConversion1 = 5 + 5 + "5"; //105
 
-var exampleTypeConversion2 ="5"+ 5 + 5 ; //555
+// var exampleTypeConversion2 ="5"+ 5 + 5 ; //555
 
-var exampleTypeConversion3 = true + 5; //true = 1
+// var exampleTypeConversion3 = true + 5; //true = 1
 
-var exampleTypeConversion4 = false + 5; //false = 0
+// var exampleTypeConversion4 = false + 5; //false = 0
 
-var exampleTypeConversion5 = new String(5);
+// var exampleTypeConversion5 = new String(5);
 
-var exampleTypeConversion6 = new Number("10");
+// var exampleTypeConversion6 = new Number("10");
 
-var exampleTypeConversion7 = new Boolean (" "); //true
+// var exampleTypeConversion7 = new Boolean (" "); //true
 
-document.write (exampleTypeConversion3);
-document.write (exampleTypeConversion5);
-document.write (exampleTypeConversion6);
-document.write (exampleTypeConversion7);
+// document.write (exampleTypeConversion3);
+// document.write (exampleTypeConversion5);
+// document.write (exampleTypeConversion6);
+// document.write (exampleTypeConversion7);
+
+
+//Math
+//operand x = 5+6
+//operands: 5,6
+//operator: +
+
