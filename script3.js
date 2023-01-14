@@ -64,5 +64,8 @@ var exampleObject1 = {};
 // document.write("Hello world"); // вывод чего то в HTML
 
 //конвертация типов данных
-var exampleTypeConversion1 = 5 + 5 + "5";
+var exampleTypeConversion1 = 5 + 5 + "5"; //105
+
+var exampleTypeConversion2 ="5"+ 5 + 5 ; //555
 document.write (exampleTypeConversion1);
+
