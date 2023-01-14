@@ -38,6 +38,9 @@ var exampleString4 = "4"; // -> string
 var booleanExample1 = true;
 var booleanExample2 = false;
 
-
+//Special types
 var exampleNull = null; //this variable is empty
 var exampleUndef = undefined; // this variable wasn't given не задали выходит когда не задали значение для переменной
+
+//big int -> number
+var exampleBigInt = 1566516548646513318n;
