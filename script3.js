@@ -58,5 +58,11 @@ var exampleObject1 = {};
 
 
 //output
-alert('Hello world');
-var result = prompt('Hello world');
+// alert('Hello world');
+// var result = prompt('Hello world'); // ask from a username smth string
+// var result2 = confirm(); //boolean
+// document.write("Hello world"); // вывод чего то в HTML
+
+//конвертация типов данных
+var exampleTypeConversion1 = 5 + 5 + "5";
+document.write (exampleTypeConversion1);
