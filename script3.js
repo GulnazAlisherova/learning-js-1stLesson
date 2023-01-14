@@ -40,4 +40,4 @@ var booleanExample2 = false;
 
 
 var exampleNull = null; //this variable is empty
-var exampleUndef = undefined; // this variable wasn't given
+var exampleUndef = undefined; // this variable wasn't given не задали выходит когда не задали значение для переменной
