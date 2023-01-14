@@ -267,3 +267,6 @@ console.log(shoppingList);
 shoppingList.pop();
 console.log(shoppingList);
 
+//remove from the begining
+shoppingList.shift();
+console.log(shoppingList);
