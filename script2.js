@@ -308,3 +308,5 @@ console.log(stringExample3.toUpperCase());
 var stringExample4 = "         Hello world.     ";
 console.log(stringExample4.trim());
 
+var stringExample5 = "Hello world. ";
+console.log(stringExample5.includes("tom"));
