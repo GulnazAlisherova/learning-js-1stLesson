@@ -154,4 +154,25 @@ function countDown(number) {
 // colorfulText("Hello world!", color);
 // colorfulText("Bye world!", color);
 
+// function backgroundColor(){
+//   document.write(`<button style = "`)
+// }
 
+var studentFirstName = "Bakyt";
+var studentLastNAme = "Ulanov";  // все начинаются со стюдент 
+var studentAge = 20;
+var studentOccupied = false;
+
+
+
+// student- object
+var student = {
+  firstName: "Bakyt",
+  lastName: "Ulanov",
+  age: 20,
+  occupied: false,
+};
+//output
+
+// document.write(studentFirstName);  -> переменные
+document.write(student.age); // -> object т.е через точку 
