@@ -177,4 +177,10 @@ var student = {
 // document.write(studentFirstName);  -> переменные
 document.write(student.age); // -> object т.е через точку 
 document.write(student.firstName);
-console.log(student.firstName + " " + student.lastName); 
+console.log(student.firstName + " " + student.lastName);
+
+
+var dog = {
+  name: "Kumaiyk",
+  age: 2,
+}
