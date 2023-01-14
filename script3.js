@@ -192,7 +192,20 @@ var exampleComparison9 = "5" != 5; //true
 
 //Functions
 function sayHello(name, timeofDay) {
-  document.write(`Hello ${name}, have a great ${timeofDay}`); 
+  document.write(`Hello ${name}, have a great ${timeofDay}! <br>`); 
 }
 
 sayHello("Bakyt" , "evening");
+sayHello("Aijan" , "morning");
+
+
+//Math
+Math.random();
+console.log();
+
+var student = {
+  name: "Bakyt", //array which contents an object
+  age:30,
+}
+var student = [student];
+
