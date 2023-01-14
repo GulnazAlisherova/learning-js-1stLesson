@@ -142,3 +142,11 @@ var exampleComparison9 = "5" != 5; //true
 // document.write ("5"===5); //"5" its a string 5 its a number they're not equals
 // document.write("5" == 5);// два знака == превращают строку в число и ответ TRUEEE
 
+//IF ELSE
+
+if (5 > 3) {
+  document.write("Hello world"); //true
+}
+else {
+  document.write("Bye world"); //false
+}
