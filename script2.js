@@ -171,6 +171,9 @@ var student = {
   lastName: "Ulanov",
   age: 20,
   occupied: false,
+  sayHello: function () {
+    console.log("Hello, my name's " + this.firstName + "and I'm " + this.age + "years old!");
+  }
 };
 //output
 
@@ -192,7 +195,7 @@ var student = {
 var dog = {
   name: "Kumaiyk",
   age: 2,
-} 
+}
 //update
 dog.age = 3;
 // document.write(dog.age);
@@ -203,7 +206,7 @@ dog.color = "gray";
 console.log(dog.color);
 
 //delete
-delete dog.color; 
+delete dog.color;
 
 //Methods
 // alert("hello");//function
@@ -218,7 +221,9 @@ delete dog.color;
 // }
 
 // how to made a method
- dog.bark = function() {
-  console.log("Woof, woof, woof!");
- }
- dog.bark();
+//  dog.bark = function() {
+//   console.log("Woof, woof, woof!");
+//  }
+//  dog.bark();
+//  dog.bark();
+
