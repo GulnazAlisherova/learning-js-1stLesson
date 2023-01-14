@@ -252,6 +252,9 @@ console.log(shoppingList[2]);
 console.log(shoppingList[6 ]);
 
 //update
+shoppingList[4] = "Tomato";
+document.write(shoppingList[4]);
 
-
- 
+//add to the end
+shoppingList.push("cherry");
+document.write(shoppingList);
