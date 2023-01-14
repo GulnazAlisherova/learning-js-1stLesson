@@ -50,5 +50,13 @@ var exampleSymbol  = Symbol("id");
 
 //Objects
 var exampleObject1 = {};
-var exampleObject2 = Math;
-document.write(typeof exampleObject1); 
+// var exampleObject2 = Math;
+// document.write(typeof exampleObject1); 
+
+//weird stuff
+// document.write(typeof null);
+
+
+//output
+alert('Hello world');
+var result = prompt('Hello world');
