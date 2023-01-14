@@ -181,7 +181,6 @@ var exampleComparison9 = "5" != 5; //true
 увеличивать число на единицу
 пока число не будет 3
  */
-
-for (var index = 1; index <= 3; index++) {
-  document.write(index);
+for (var index = 10; index >= 1; index -=2) { // in short "i"
+  document.write(index + " ");
 }
