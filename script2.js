@@ -172,7 +172,7 @@ var student = {
   age: 20,
   occupied: false,
   sayHello: function () {
-    console.log("Hello, my name's " + this.firstName + "and I'm " + this.age + "years old!");
+    console.log("Hello, my name's " + this.firstName + " and I'm " + this.age + " years old!");
   }
 };
 //output
@@ -227,3 +227,8 @@ delete dog.color;
 //  dog.bark();
 //  dog.bark();
 
+student.sayHello(); // первый раз выводит про Бакыта
+
+student.firstName = "Aijan";
+student.age = 19;
+student.sayHello(); // а здесь про Айжан
