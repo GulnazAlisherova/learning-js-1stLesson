@@ -132,4 +132,6 @@ console.log(exampleMath10);
 //Comparisons
 var exampleComparison1 = 6 > 5;//true
 var exampleComparison2 = 6 < 5; //false
-var exampleComparison3 = 6 === 5;//false
+var exampleComparison3 = 6 >= 5; //true
+var exampleComparison4 = 6 <= 5; //false
+var exampleComparison5 = 6 === 5;//false
