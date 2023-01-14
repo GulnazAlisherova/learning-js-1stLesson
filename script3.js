@@ -16,6 +16,12 @@ var exampleNumber2 = 123.45;
 // var exampleNumber3 = Infinity; // 1 / 0 -infinity
 // var exampleNumber4 = Nan; // not a number 
 
-document.write(typeof "nature");
+// document.write(typeof "nature");
 
-document.write(typeof exampleNumber1);
+// document.write(typeof exampleNumber1);
+// document.write(typeof "asda" / 2  );
+
+//string
+
+var exampleString1 = "hello world!"; //-> string
+var exampleString2 = helloWorld; // переменная
