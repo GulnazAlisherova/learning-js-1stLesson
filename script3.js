@@ -1,3 +1,4 @@
+/*new type of comment*/ 
 var emptyVariable;
 var message = "Hello world"; //most usable
 var firstName, lastName = "Ulanov";
