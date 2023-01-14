@@ -47,3 +47,8 @@ var exampleBigInt = 1566516548646513318n; // n  must be
 
 //Symbol
 var exampleSymbol  = Symbol("id");  
+
+//Objects
+var exampleObject1 = {};
+var exampleObject2 = Math;
+document.write(typeof exampleObject1); 
