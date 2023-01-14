@@ -116,3 +116,15 @@ var exampleMath7 = 2 ** 4; //16
 
 var exampleMath8 = (4 - (3 + 4) * 8); //-52
 // document.write(exampleMath8);
+
+//Fast modify
+var exampleMath9 = 4;
+exampleMath9 += 5;//examplemath9 + 5
+exampleMath9 -= 3; //exampleMath9 = examplemath9 - 3 
+
+
+//Increment / decrement
+var exampleMath10 = 0;
+exampleMath10++; 
+// exampleMath10--; 
+console.log(exampleMath10);
