@@ -72,5 +72,13 @@ var exampleTypeConversion3 = true + 5; //true = 1
 
 var exampleTypeConversion4 = false + 5; //false = 0
 
-document.write (exampleTypeConversion3);
+var exampleTypeConversion5 = new String(5);
 
+var exampleTypeConversion6 = new Number("10");
+
+var exampleTypeConversion7 = new Boolean (" "); //true
+
+document.write (exampleTypeConversion3);
+document.write (exampleTypeConversion5);
+document.write (exampleTypeConversion6);
+document.write (exampleTypeConversion7);
