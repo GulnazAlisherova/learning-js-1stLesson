@@ -172,6 +172,7 @@ var exampleComparison9 = "5" != 5; //true
 
 
 var userNumber;
-while ( userNumber != 13) {
-  userNumber = prompt("Write a thirteen as a number");
+while ( userNumber != "3.14") {
+  console.log(userNumber);
+  userNumber = prompt(" What is the number PI");
 }
