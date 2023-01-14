@@ -89,3 +89,9 @@ var exampleObject1 = {};
 //operands: 5,6
 //operator: +
 
+//Unary operator
+var x = 5;
+ x = -x; //x operand
+
+var y = "3";
+y = +y; 
