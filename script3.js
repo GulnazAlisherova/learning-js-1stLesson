@@ -171,8 +171,14 @@ var exampleComparison9 = "5" != 5; //true
 // }
 
 
-var userNumber;
-while ( userNumber != "3.14") {
-  console.log(userNumber);
-  userNumber = prompt(" What is the number PI");
-}
+// var userNumber;
+// while ( userNumber != "3.14") {
+//   console.log(userNumber);
+//   userNumber = prompt(" What is the number PI");
+// }
+/*
+Начни с числа 1 
+увеличивать число на единицу
+пока число не будет 3
+ */
+ 
