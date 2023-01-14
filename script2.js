@@ -304,3 +304,7 @@ console.log(stringExample2.toLowerCase());
  
 var stringExample3 = "Hello world. ";
 console.log(stringExample3.toUpperCase());
+
+var stringExample4 = "         Hello world.     ";
+console.log(stringExample4.trim());
+
