@@ -144,9 +144,22 @@ var exampleComparison9 = "5" != 5; //true
 
 //IF ELSE
 
-if (5 > 3) {
-  document.write("Hello world"); //true
-}
-else {
-  document.write("Bye world"); //false
-}
+// if (5 > 3) {
+//   document.write("Hello world"); //true
+// }
+// else {
+//   document.write("Bye world"); //false
+// }
+
+//pseudo code
+
+/*
+Если чайник кипит 
+  выключить газ
+Иначе
+  проверить позже
+ */
+
+
+var age  = prompt("How old are you?"); 
+alert("You are "+ age + " years old"); 
