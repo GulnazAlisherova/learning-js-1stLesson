@@ -243,22 +243,27 @@ var shoppingList1 = "apple";
 var shoppingList2 = "pear"; // incorrect
 
 var shoppingList = [
-  "apple", "lime", "pineapple", "cherry", "potato", 100, {name: "hello"}
+  "apple", "lime", "pineapple", "cherry", "potato",
 ];
 
 console.log(shoppingList1) // its from first example NOT ARRAY
 //output
 console.log(shoppingList[2]);
-console.log(shoppingList[6 ]);
+console.log(shoppingList[3 ]);
 
 //update
 shoppingList[4] = "Tomato";
-document.write(shoppingList[4]);
+console.log(shoppingList[4]); 
 
 //add to the end
 shoppingList.push("cherry");
-document.write(shoppingList);
+console.log(shoppingList); 
 
 //add to the beginning
 shoppingList.unshift("salt");
-document.write(shoppingList); 
+console.log(shoppingList); 
+
+//remove from the end
+shoppingList.pop();
+console.log(shoppingList);
+
