@@ -175,12 +175,34 @@ var student = {
 //output
 
 // document.write(studentFirstName);  -> переменные
-document.write(student.age); // -> object т.е через точку 
-document.write(student.firstName);
-console.log(student.firstName + " " + student.lastName);
+// document.write(student.age); // -> object т.е через точку 
+// document.write(student.firstName);
+// console.log(student.firstName + " " + student.lastName);
 
+
+// var dog = {
+//   name: "Kumaiyk",
+//   age: 2,
+// }
+// document.write(dog.age);
+// //update
+// dog.age = 3;
+// document.write(dog.age);
 
 var dog = {
   name: "Kumaiyk",
   age: 2,
-}
+} 
+//update
+dog.age = 3;
+// document.write(dog.age);
+
+// //add
+// console.log(dog.color);
+dog.color = "gray";
+console.log(dog.color);
+
+//delete
+delete dog.color; 
+
+//
