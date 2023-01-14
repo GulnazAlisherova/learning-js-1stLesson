@@ -1,4 +1,8 @@
-/*new type of comment*/ 
+/*
+new type of comment 
+
+VARIABLES
+*/ 
 var emptyVariable;
 var message = "Hello world"; //most usable
 var firstName, lastName = "Ulanov";
@@ -29,3 +33,7 @@ var exampleString1 = "hello world!"; //-> string
 var exampleString2 = helloWorld; // переменная
 var exampleString3 =`hello world!`; //-> string too
 var exampleString4 = "4"; // -> string
+
+//Boolean
+var booleanExample1 = true;
+var booleanExample2 = false;
