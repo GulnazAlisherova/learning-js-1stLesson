@@ -285,3 +285,9 @@ document.write("</ul>");
 
 //built in properties and methods of strings and numbers
 
+var numberExample1 = Math.random();
+console.log(numberExample1.toFixed(4));
+
+
+var numberExample2 = 3.14159265;
+console.log(numberExample2.toFixed(2));
