@@ -134,6 +134,9 @@ var exampleComparison1 = 6 > 5;//true
 var exampleComparison2 = 6 < 5; //false
 var exampleComparison3 = 6 >= 5; //true
 var exampleComparison4 = 6 <= 5; //false
-var exampleComparison5 = 6 === 5;//false один знак = говорит равняется а == ленивое  сравнение 
+var exampleComparison5 = 6 === 5;//false один знак = говорит равняется а == ленивое  сравнение === это четкое сравнение она всегда будет сравнивать число
 
-document.write ("5"===5); //"5" its a string 5 its a number they're not equals
+// document.write ("5"===5); //"5" its a string 5 its a number they're not equals
+
+
+document.write("5" == 5);// два знака == превращают строку в число и ответ TRUEEE
