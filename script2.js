@@ -299,4 +299,8 @@ console.log(stringExample1.length);
 
 
 var stringExample2 = "Hello world. ";
-console.log(stringExample2.toLowerCase);
+console.log(stringExample2.toLowerCase());
+
+ 
+var stringExample3 = "Hello world. ";
+console.log(stringExample3.toUpperCase());
