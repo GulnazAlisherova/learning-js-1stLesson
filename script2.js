@@ -281,3 +281,7 @@ for (let i = 0; i < shoppingList.length; i++) {
    document.write(" <li>" + shoppingList[i] + "</li>");
 }
 document.write("</ul>");
+
+
+//built in properties and methods of strings and numbers
+
