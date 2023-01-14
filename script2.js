@@ -258,3 +258,7 @@ document.write(shoppingList[4]);
 //add to the end
 shoppingList.push("cherry");
 document.write(shoppingList);
+
+//add to the beginning
+shoppingList.unshift("salt");
+document.write(shoppingList); 
