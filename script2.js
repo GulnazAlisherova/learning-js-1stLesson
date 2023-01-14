@@ -227,8 +227,14 @@ delete dog.color;
 //  dog.bark();
 //  dog.bark();
 
-student.sayHello(); // первый раз выводит про Бакыта
+// student.sayHello(); // первый раз выводит про Бакыта
 
-student.firstName = "Aijan";
-student.age = 19;
-student.sayHello(); // а здесь про Айжан
+// student.sayHello();
+// student.firstName = "Aijan";
+// student.age = 19;
+// student.sayHello(); // а здесь про Айжан
+
+// student.sayHello();
+
+
+//ARRAYs
