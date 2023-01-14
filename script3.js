@@ -113,3 +113,6 @@ var exampleMath6 = 6 % 2 //0
 
 //Exponent
 var exampleMath7 = 2 ** 4; //16
+
+var exampleMath8 = (4 - (3 + 4) * 8); //-52
+// document.write(exampleMath8);
