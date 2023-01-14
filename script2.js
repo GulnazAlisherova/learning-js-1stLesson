@@ -296,3 +296,7 @@ console.log(numberExample2.toFixed(2));
 
 var stringExample1 = "Hello world. ";
 console.log(stringExample1.length);
+
+
+var stringExample2 = "Hello world. ";
+console.log(stringExample2.toLowerCase);
