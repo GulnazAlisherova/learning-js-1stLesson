@@ -107,4 +107,7 @@ var exampleMath2 = 5 - 6;
 var exampleMath3 = 5 / 6;
 var exampleMath4 = 5 * 6;
 
-var exampleMath5 = 5 % 2; //1
+//Remainder остаток
+var exampleMath5 = 5 % 2; //1 -> остаток
+var exampleMath6 = 6 % 2 //0
+
