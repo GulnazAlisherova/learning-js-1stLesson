@@ -111,3 +111,5 @@ var exampleMath4 = 5 * 6;
 var exampleMath5 = 5 % 2; //1 -> остаток
 var exampleMath6 = 6 % 2 //0
 
+//Exponent
+var exampleMath7 = 2 ** 4; //16
