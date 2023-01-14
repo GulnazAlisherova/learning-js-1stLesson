@@ -46,7 +46,7 @@ var exampleUndef = undefined; // this variable wasn't given не задали в
 var exampleBigInt = 1566516548646513318n; // n  must be
 
 //Symbol
-var exampleSymbol  = Symbol("id");  
+var exampleSymbol = Symbol("id");
 
 //Objects
 var exampleObject1 = {};
@@ -91,7 +91,12 @@ var exampleObject1 = {};
 
 //Unary operator
 var x = 5;
- x = -x; //x operand
+x = -x; //x operand
 
 var y = "3";
-y = +y; 
+y = +y;
+
+
+//Binary operator
+var x  = 1, y = 3;
+y = x + y;
