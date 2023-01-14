@@ -274,3 +274,10 @@ console.log(shoppingList);
 //show the list length
 
 console.log(shoppingList.length);
+
+//вывод на HTML
+document.write("<ul>");
+for (let i = 0; i < shoppingList.length; i++) {
+   document.write(" <li>" + shoppingList[i] + "</li>");
+}
+document.write("</ul>");
