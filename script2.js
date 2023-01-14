@@ -238,3 +238,10 @@ delete dog.color;
 
 
 //ARRAYs
+
+var shoppingList1 = "apple";
+var shoppingList2 = "pear"; // incorrect
+
+var shoppingList = [
+  "apple", "lime", "pineapple", "cherry", "potato"
+];
