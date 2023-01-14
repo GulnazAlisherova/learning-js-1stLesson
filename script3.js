@@ -68,7 +68,9 @@ var exampleTypeConversion1 = 5 + 5 + "5"; //105
 
 var exampleTypeConversion2 ="5"+ 5 + 5 ; //555
 
-var exampleTypeConversion2 =true + 5; //true = 1
+var exampleTypeConversion3 = true + 5; //true = 1
 
-document.write (exampleTypeConversion2);
+var exampleTypeConversion4 = false + 5; //false = 0
+
+document.write (exampleTypeConversion3);
 
