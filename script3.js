@@ -209,3 +209,7 @@ var student = {
 }
 var student = [student];
 
+function sayBye(name2, time) {
+  document.write(`Hello ${name2}, have a good ${time}`);
+}
+sayBye("Gulnaz", "afternoon")
