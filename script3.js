@@ -213,3 +213,7 @@ function sayBye(name2, time) {
   document.write(`Hello ${name2}, have a good ${time}`);
 }
 sayBye("Gulnaz", "afternoon")
+
+var exampleVar = ""; //OLD METHOD OF WRITING VARIABLES
+var exampleLet = ""; // NEW METHOD OF WRITING VARIABLES
+const PI = 3.14; // IT'S CAN'T CHANGE AT ALL 
