@@ -218,9 +218,11 @@ function sayHello(name, timeofDay) {
 // var exampleLet = ""; // NEW METHOD OF WRITING VARIABLES
 // const PI = 3.14; // IT'S CAN'T CHANGE AT ALL 
 
-let userName = "John";
-function showMessage(){
-  let message = "Hello " + userName;
-  document.write(message);
-}
-showMessage();
+// let userName = "John";
+// function showMessage(){
+//   let message = "Hello " + userName;
+//   document.write(message);
+// }
+// showMessage();
+
+function showMessage
