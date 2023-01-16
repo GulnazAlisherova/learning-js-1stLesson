@@ -226,6 +226,8 @@ function sayHello(name, timeofDay) {
 // showMessage();
  
 function showMessage(from, text){
-  document.write(from + " : " + text);
+  document.write(from + " : " + text
+  );
 }
 showMessage("Ann", "Hi, how are you doing?");
+showMessage("Tom", "Hello?");
