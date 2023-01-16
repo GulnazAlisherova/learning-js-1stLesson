@@ -192,7 +192,7 @@ var exampleComparison9 = "5" != 5; //true
 
 //Functions
 function sayHello(name, timeofDay) {
-  document.write(`Hello ${name}, have a great ${timeofDay}! <br>`); 
+  document.write(`Hello ${name}, have a great ${timeofDay}! <br>`);
 }
 
 // sayHello("Bakyt" , "evening");
@@ -224,8 +224,8 @@ function sayHello(name, timeofDay) {
 //   document.write(message);
 // }
 // showMessage();
- 
-function showMessage(from, text){
+
+function showMessage(from, text) {
   document.write(from + " : " + text
   );
 }
@@ -234,5 +234,5 @@ function showMessage(from, text){
 
 let pi = 3.14;
 let a = 100;
-let b = a*pi;
+let b = a * pi;
 console.log(b);
