@@ -195,25 +195,32 @@ function sayHello(name, timeofDay) {
   document.write(`Hello ${name}, have a great ${timeofDay}! <br>`); 
 }
 
-sayHello("Bakyt" , "evening");
-sayHello("Aijan" , "morning");
+// sayHello("Bakyt" , "evening");
+// sayHello("Aijan" , "morning");
 
 
-//Math
-Math.random();
-console.log();
+// //Math
+// Math.random();
+// console.log();
 
-var student = {
-  name: "Bakyt", //array which contents an object
-  age:30,
+// var student = {
+//   name: "Bakyt", //array which contents an object
+//   age:30,
+// }
+// var student = [student];
+
+// function sayBye(name2, time) {
+//   document.write(`Hello ${name2}, have a good ${time}`);
+// }
+// sayBye("Gulnaz", "afternoon")
+
+// var exampleVar = ""; //OLD METHOD OF WRITING VARIABLES
+// var exampleLet = ""; // NEW METHOD OF WRITING VARIABLES
+// const PI = 3.14; // IT'S CAN'T CHANGE AT ALL 
+
+let userName = "John";
+function showMessage(){
+  let message = "Hello " + userName;
+  document.write(message);
 }
-var student = [student];
-
-function sayBye(name2, time) {
-  document.write(`Hello ${name2}, have a good ${time}`);
-}
-sayBye("Gulnaz", "afternoon")
-
-var exampleVar = ""; //OLD METHOD OF WRITING VARIABLES
-var exampleLet = ""; // NEW METHOD OF WRITING VARIABLES
-const PI = 3.14; // IT'S CAN'T CHANGE AT ALL 
+showMessage();
