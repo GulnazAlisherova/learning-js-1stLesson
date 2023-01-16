@@ -229,5 +229,10 @@ function showMessage(from, text){
   document.write(from + " : " + text
   );
 }
-showMessage("Ann", "Hi, how are you doing?");
-showMessage("Tom", "Hello?");
+// showMessage("Ann", "Hi, how are you doing?");
+// showMessage("Tom", "Hello?");
+
+let pi = 3.14;
+let a = 100;
+let b = a*pi;
+console.log(b);
