@@ -224,5 +224,8 @@ function sayHello(name, timeofDay) {
 //   document.write(message);
 // }
 // showMessage();
-
-function showMessage
+ 
+function showMessage(from, text){
+  document.write(from + " : " + text);
+}
+showMessage("Ann", "Hi, how are you doing?");
