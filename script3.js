@@ -256,18 +256,18 @@ var elon = {
   name: "Bella Hadid", // name -> свойство
   lastName: "Shaihislamova",
   age: 25,
-  hobbies:{
-     art: "Drawing singing",
-     displayHobbies: function(){
+  hobbies: {
+    art: "Drawing singing",
+    displayHobbies: function () {
       document.write(`I love ${this.hobbies.art}`);
-     }
+    }
   },
   bye: function () {
     document.write(`Hello, my name is ${this.name} and I'm gonna say "GOODBYE " to you! <br>`);
   }
 }
 
-elon.bye(); 
+elon.bye();
 
 document.write(elon.age);
 document.write(displayHobbies);
