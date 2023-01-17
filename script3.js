@@ -261,6 +261,6 @@ var elon = {
   }
 }
 
-elon.bye();
-// vasya.greet();
-// vasya.greet();
+elon.bye(); 
+
+document.write(elon.age);
