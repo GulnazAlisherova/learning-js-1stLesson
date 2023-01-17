@@ -232,7 +232,17 @@ function showMessage(from, text) {
 // showMessage("Ann", "Hi, how are you doing?");
 // showMessage("Tom", "Hello?");
 
-let pi = 3.14;
-let a = 100;
-let b = a * pi;
-console.log(b);
+// let pi = 3.14;
+// let a = 100;
+// let b = a * pi;
+// console.log(b);
+
+
+var vasya =  {
+  name:"Vasiliy",
+  lastName: "Volkov",
+  age:25,
+  greet: function(){
+    alert("Hello, ")
+  }
+}
