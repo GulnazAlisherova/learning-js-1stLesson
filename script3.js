@@ -238,18 +238,29 @@ function showMessage(from, text) {
 // console.log(b);
 
 
-var vasya = {
+// var vasya = {
+//   name: "Bella Hadid", // name -> свойство
+//   lastName: "Shaihislamova",
+//   age: 25,
+//   greet: function () {
+//     document.write(`Hello, my name is ${this.name} and I'm ${this.age}  years old! <br>`);
+//   }
+// }
+// vasya.greet();
+// vasya.name = "Elon Musk";
+// vasya.age = 30;
+// vasya.greet();
+
+
+var elon = {
   name: "Bella Hadid", // name -> свойство
   lastName: "Shaihislamova",
   age: 25,
-  greet: function () {
-    document.write(`Hello, my name is ${this.name} and I'm ${this.age}  years old! <br>`);
+  bye: function () {
+    document.write(`Hello, my name is ${this.name} and I'm gonna say "GOODBYE " to you! <br>`);
   }
 }
-vasya.greet();
-vasya.name = "Elon Musk";
-vasya.age = 30;
-vasya.greet();
-// vasya.greet();
+
+elon.bye();
 // vasya.greet();
 // vasya.greet();
