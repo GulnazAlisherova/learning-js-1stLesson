@@ -247,3 +247,6 @@ var vasya = {
   }
 }
 vasya.greet();
+vasya.greet();
+vasya.greet();
+vasya.greet();
