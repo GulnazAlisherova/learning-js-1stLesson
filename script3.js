@@ -247,9 +247,8 @@ var vasya = {
   }
 }
 vasya.greet();
-vasya.name= "Elon Musk";
+vasya.name = "Elon Musk";
 vasya.age = 30;
-
 vasya.greet();
 // vasya.greet();
 // vasya.greet();
