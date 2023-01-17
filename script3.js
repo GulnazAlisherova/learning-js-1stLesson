@@ -243,10 +243,10 @@ var vasya = {
   lastName: "Shaihislamova",
   age: 25,
   greet: function () {
-    document.write(`Hello, my name is ${this.name}!`);
+    document.write(`Hello, my name is ${this.name} and I'm ${this.age} + years old!`);
   }
 }
 vasya.greet();
-vasya.greet();
-vasya.greet();
-vasya.greet();
+// vasya.greet();
+// vasya.greet();
+// vasya.greet();
