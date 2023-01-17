@@ -259,8 +259,8 @@ var elon = {
   hobbies: {
     art: " Drawing singing",
     displayHobbies: function () {
-      document.write(`I love ${this.hobbies.art}`);
-    }
+      document.write(`I love ${this.art}`);
+    },
   },
   bye: function () {
     document.write(`Hello, my name is ${this.name} and I'm gonna say "GOODBYE " to you! <br>`);
