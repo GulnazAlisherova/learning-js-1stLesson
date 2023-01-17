@@ -239,10 +239,11 @@ function showMessage(from, text) {
 
 
 var vasya =  {
-  name:"Vasiliy",
-  lastName: "Volkov",
+  name:"Bella Hadid",
+  lastName: "Shaihislamova",
   age:25,
   greet: function(){
-    alert("Hello, ")
+    alert(`Hello, my name is ${this.name}!`)
   }
 }
+vasya.greet();
