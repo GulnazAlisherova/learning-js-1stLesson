@@ -257,7 +257,7 @@ var elon = {
   lastName: "Shaihislamova",
   age: 25,
   hobbies: {
-    art: "Drawing singing",
+    art: " Drawing singing",
     displayHobbies: function () {
       document.write(`I love ${this.hobbies.art}`);
     }
@@ -270,5 +270,5 @@ var elon = {
 elon.bye();
 
 document.write(elon.age);
-document.write(displayHobbies);
+document.write(elon.hobbies.art);
 elon.hobbies.displayHobbies();
