@@ -267,8 +267,8 @@ var elon = {
   }
 }
 
-elon.bye();
+// elon.bye();
 
-document.write(elon.age);
-document.write(elon.hobbies.art);
-elon.hobbies.displayHobbies();
+// document.write(elon.age);
+// document.write(elon.hobbies.art);
+// elon.hobbies.displayHobbies();
