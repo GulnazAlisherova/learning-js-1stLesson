@@ -12,3 +12,4 @@ let helloWorldDiv = document.getElementById("hello-world");
 helloWorldDiv.textContent = "Nice to meet you!";
 helloWorldDiv.style.color= "white"
 helloWorldDiv.style.background= "green"
+helloWorldDiv.style.textDecoration= "underline    "
