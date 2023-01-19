@@ -11,17 +11,17 @@
 let helloWorldDiv = document.getElementById("hello-world");
 
 helloWorldDiv.textContent = "Nice to meet you!";
-helloWorldDiv.style.color= "white";
-helloWorldDiv.style.background= "green";
-helloWorldDiv.style.textDecoration= "underline";
-helloWorldDiv.style.fontSize= "20px"; // numbers should write in ""
+helloWorldDiv.style.color = "white";
+helloWorldDiv.style.background = "green";
+helloWorldDiv.style.textDecoration = "underline";
+helloWorldDiv.style.fontSize = "20px"; // numbers should write in ""
 
 
 //get element by tag name
 let allParagraphs = document.getElementsByTagName("p");
 // console.log(allParagraphs);
 
-for (let paragraphs of allParagraphs){
+for (let paragraphs of allParagraphs) {
   paragraphs.style.backgroundColor = "blue";
   paragraphs.style.color = "wheat";
   paragraphs.style.fontWeight = "700"
@@ -29,8 +29,8 @@ for (let paragraphs of allParagraphs){
 // getElementsByClassName
 let className = document.getElementsByClassName("hello-world");
 
-for(let classes of className) {
-  classes.style.color="red";
+for (let classes of className) {
+  classes.style.color = "red";
   classes.style.fontStyle = "italic"
   classes.style.backgroundColor = "yellow"
 }
