@@ -7,6 +7,7 @@
 
 //optimizition
 
+//get element by id
 let helloWorldDiv = document.getElementById("hello-world");
 
 helloWorldDiv.textContent = "Nice to meet you!";
