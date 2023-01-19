@@ -26,3 +26,5 @@ for (let paragraphs of allParagraphs){
   paragraphs.style.color = "wheat";
   paragraphs.style.fontWeight = "700"
 }
+// getElementsByClassName
+
