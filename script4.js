@@ -19,4 +19,8 @@ helloWorldDiv.style.fontSize= "20px"; // numbers should write in ""
 
 //get element by tag name
 let allParagraphs = document.getElementsByTagName("p");
-console.log(allParagraphs);
+// console.log(allParagraphs);
+
+for (let paragraphs of allParagraphs){
+  paragraphs.style.backgroundColor = "blue";
+}
