@@ -34,3 +34,7 @@ for (let classes of className) {
   classes.style.fontStyle = "italic"
   classes.style.backgroundColor = "yellow"
 }
+
+
+//QuerySelector
+let helloWorld2 = document.querySelector("#hello-world");
