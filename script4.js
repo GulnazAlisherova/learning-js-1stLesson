@@ -44,4 +44,5 @@ let allHelloWorlds = document.querySelectorAll(".hello-world");
 for (let queryAllClasses of allHelloWorlds) {
   queryAllClasses.style.backgroundColor = "black";
   queryAllClasses.style.color = "white";
+  queryAllClasses.style.fontSize = "10px";
 }
