@@ -23,4 +23,6 @@ let allParagraphs = document.getElementsByTagName("p");
 
 for (let paragraphs of allParagraphs){
   paragraphs.style.backgroundColor = "blue";
+  paragraphs.style.color = "wheat";
+  
 }
