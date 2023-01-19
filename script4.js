@@ -27,4 +27,8 @@ for (let paragraphs of allParagraphs){
   paragraphs.style.fontWeight = "700"
 }
 // getElementsByClassName
+let className = document.getElementsByClassName("hello-world");
 
+for(let classes of className) {
+  classes.style.color="red";
+}
