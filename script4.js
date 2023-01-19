@@ -39,3 +39,5 @@ for (let classes of className) {
 //QuerySelector
 let helloWorld2 = document.querySelector("#hello-world");
 helloWorld2.style.backgroundColor = "purple";
+
+let allHelloWorlds = document.querySelectorAll(".hello-world");
