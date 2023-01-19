@@ -15,3 +15,7 @@ helloWorldDiv.style.color= "white";
 helloWorldDiv.style.background= "green";
 helloWorldDiv.style.textDecoration= "underline";
 helloWorldDiv.style.fontSize= "20px"; // numbers should write in ""
+
+
+//get element by tag name
+let allParagraphs = document.getElementsByTagName("p");
