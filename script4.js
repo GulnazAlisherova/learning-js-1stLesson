@@ -40,9 +40,13 @@ for (let classes of className) {
 let helloWorld2 = document.querySelector("#hello-world");
 helloWorld2.style.backgroundColor = "purple";
 
+
+//querySelectorAll
 let allHelloWorlds = document.querySelectorAll(".hello-world");
 for (let queryAllClasses of allHelloWorlds) {
   queryAllClasses.style.backgroundColor = "black";
   queryAllClasses.style.color = "white";
   queryAllClasses.style.fontSize = "10px";
 }
+
+document.querySelector('p:first-of-type').textContent = "HELLO";
