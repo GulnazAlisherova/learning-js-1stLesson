@@ -52,4 +52,5 @@ for (let queryAllClasses of allHelloWorlds) {
 document.querySelector('p:first-of-type').textContent = "HELLO";
 
 helloWorld2.innerHTML = "<h1>Hello world</h1>";
+helloWorld2.innerHTML += "Nice to meet you";
 helloWorld2.style.textAlign = "center";
