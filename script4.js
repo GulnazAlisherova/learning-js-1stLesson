@@ -31,4 +31,5 @@ let className = document.getElementsByClassName("hello-world");
 
 for(let classes of className) {
   classes.style.color="red";
+  classes.style.fontStyle = "italic"
 }
