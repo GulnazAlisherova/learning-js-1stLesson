@@ -9,7 +9,7 @@ let button3 = document.querySelector('button:nth-of-type(3)');
 
 button1.addEventListener('click', function(){
   for (let p of allP) {
-    p.style.flexBasis = "90%";
+    // p.style.flexBasis = "90%";
   }
   document.write("Hello world");
 });
