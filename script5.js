@@ -4,3 +4,4 @@ for (let p of allP) {
 }
 
 let button1= document.querySelector('button:nth-of-type(1)');
+let button2= document.querySelector('button:nth-of-type(2)');
