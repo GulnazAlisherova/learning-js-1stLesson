@@ -8,5 +8,11 @@ let button2 = document.querySelector('button:nth-of-type(2)');
 let button3 = document.querySelector('button:nth-of-type(3)');
 
 button1.addEventListener('click', function(){
-  
-})
+
+});
+button2.addEventListener('click', function(){
+
+});
+button3.addEventListener('click', function(){
+
+});
