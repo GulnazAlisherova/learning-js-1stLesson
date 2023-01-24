@@ -11,6 +11,7 @@ button1.addEventListener('click', function(){
   for (let p of allP) {
     p.style.flexBasis = "90%";
   }
+  document.write("Hello world");
 });
 button2.addEventListener('click', function(){
   for (let p of allP) {
