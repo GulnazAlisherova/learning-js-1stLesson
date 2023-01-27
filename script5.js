@@ -31,7 +31,8 @@ function replace(str) {
 replace("Kyrgyz obondoru");
 
 function replaceOnly(str) {
-  let result = str.replace("o", "💡");
+  let result2 = str.replace("o", "💡");
+  console.log(result2);
 }
 replaceOnly("Kyrgyz obondoru");
 
