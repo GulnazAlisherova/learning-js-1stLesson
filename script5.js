@@ -24,7 +24,9 @@
 //   }
 // });
 
-function replace 
+function replace(str, a, b){
+  let result
+}
 
 // как модифицировать документ
 //method 1.
