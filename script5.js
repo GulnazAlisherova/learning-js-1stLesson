@@ -24,8 +24,9 @@
 //   }
 // });
 
-function replace(str, a, b){
-  let result
+function replace(str, a, b) {
+  let result = str.replaceAll(a, b);
+  console.log(result);
 }
 
 // как модифицировать документ
