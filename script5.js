@@ -36,6 +36,10 @@ function replaceOnly(str) {
 }
 replaceOnly("Kyrgyz obondoru");
 
+function hasMyName(str){
+  
+}
+
 // как модифицировать документ
 //method 1.
 // document.body.innerHTML = "<h1>Hello world</h1>";
