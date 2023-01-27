@@ -25,7 +25,7 @@
 // });
 
 function replace(str) {
-  let result = str.replaceAll("o", "👌");
+  let result = str.replaceAll("o", "lorem");
   console.log(result);
 }
 replace("Kyrgyz obondoru");
