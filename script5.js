@@ -24,11 +24,11 @@
 //   }
 // });
 
-function replace(str, a, b) {
-  let result = str.replaceAll(a, b);
+function replace(str) {
+  let result = str.replaceAll("o", "👌");
   console.log(result);
 }
-
+replace("Kyrgyz obondoru");
 // как модифицировать документ
 //method 1.
-document.body.innerHTML = "<h1>Hello world</h1>";
+// document.body.innerHTML = "<h1>Hello world</h1>";
