@@ -54,6 +54,8 @@ function february(x, y){
     alert("This february is not full");
   }
 }
+february(24, 23);
+
 // как модифицировать документ
 //method 1.
 // document.body.innerHTML = "<h1>Hello world</h1>";
