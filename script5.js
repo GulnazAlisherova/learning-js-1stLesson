@@ -24,37 +24,37 @@
 //   }
 // });
 
-function replace(str) {
-  let result = str.replaceAll("o", "lorem");
-  console.log(result);
-}
-replace("Kyrgyz obondoru");
+// function replace(str) {
+//   let result = str.replaceAll("o", "lorem");
+//   console.log(result);
+// }
+// replace("Kyrgyz obondoru");
 
-function replaceOnly(str) {
-  let result2 = str.replace("o", "💡");
-  console.log(result2);
-}
-replaceOnly("Kyrgyz obondoru");
+// function replaceOnly(str) {
+//   let result2 = str.replace("o", "💡");
+//   console.log(result2);
+// }
+// replaceOnly("Kyrgyz obondoru");
 
-function hasMyName(str) {
-  if (str.includes("Gulnaz")) {
-    console.log("Has my name");
-  }
-  else {
-    console.log
-  }
-}
+// function hasMyName(str) {
+//   if (str.includes("Gulnaz")) {
+//     console.log("Has my name");
+//   }
+//   else {
+//     console.log
+//   }
+// } 
 
-function february(x, y) {
-  if (x % 4) {
-    alert("This february is full");
-  }
-  else {
+// function february(x, y) {
+//   if (x % 4) {
+//     alert("This february is full");
+//   }
+//   else {
 
-    alert("This february is not full");
-  }
-}
-february(24, 23);
+//     alert("This february is not full");
+//   }
+// }
+// february(24, 23);
 
 // как модифицировать документ
 //method 1.
