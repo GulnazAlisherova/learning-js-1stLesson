@@ -49,8 +49,11 @@ function february(x, y){
   if(x % 4){
     alert("This february is full");
   }
-
-
+  else{
+    
+    alert("This february is not full");
+  }
+}
 // как модифицировать документ
 //method 1.
 // document.body.innerHTML = "<h1>Hello world</h1>";
