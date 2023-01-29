@@ -45,7 +45,11 @@ function hasMyName(str){
   }
 }
 
-function february(x, y)
+function february(x, y){
+  if(x % 4){
+    alert("This february is full");
+  }
+
 
 // как модифицировать документ
 //method 1.
