@@ -37,8 +37,15 @@ function replaceOnly(str) {
 replaceOnly("Kyrgyz obondoru");
 
 function hasMyName(str){
-  
+  if(str.includes("Gulnaz")){
+    console.log("Has my name");
+  }
+  else{
+    console.log
+  }
 }
+
+function february(x, y)
 
 // как модифицировать документ
 //method 1.
