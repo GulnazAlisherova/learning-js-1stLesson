@@ -36,21 +36,21 @@ function replaceOnly(str) {
 }
 replaceOnly("Kyrgyz obondoru");
 
-function hasMyName(str){
-  if(str.includes("Gulnaz")){
+function hasMyName(str) {
+  if (str.includes("Gulnaz")) {
     console.log("Has my name");
   }
-  else{
+  else {
     console.log
   }
 }
 
-function february(x, y){
-  if(x % 4){
+function february(x, y) {
+  if (x % 4) {
     alert("This february is full");
   }
-  else{
-    
+  else {
+
     alert("This february is not full");
   }
 }
