@@ -56,28 +56,28 @@
 // }
 // february(24, 23);
 
-// как модифицировать документ
-//method 1.
-// document.body.innerHTML = "<h1>Hello world</h1>";
+// // как модифицировать документ
+// //method 1.
+// // document.body.innerHTML = "<h1>Hello world</h1>";
 
 
-let div = document.createElement('div');
-let textNode = document.createTextNode('Here I am');
+// let div = document.createElement('div');
+// let textNode = document.createTextNode('Here I am');
 
 
-// at home i must watch some youtube videos about JS GAMES
+// // at home i must watch some youtube videos about JS GAMES
 
-document.querySelector('a').addEventListener('click', function(event){
-  event.preventDefault();
-  this.textContent = "Yandex";
-});
+// document.querySelector('a').addEventListener('click', function(event){
+//   event.preventDefault();
+//   this.textContent = "Yandex";
+// });
 
-document.querySelector('a').addEventListener('contextmenu', function(event){
-  event.preventDefault();
-  this.style.background = "red";
-});
+// document.querySelector('a').addEventListener('contextmenu', function(event){
+//   event.preventDefault();
+//   this.style.background = "red";
+// });
 
-document.querySelector('a').addEventListener('dblclick', function(event){
-  event.preventDefault();
-  this.remove;
-});
+// document.querySelector('a').addEventListener('dblclick', function(event){
+//   event.preventDefault();
+//   this.remove;
+// });
